@@ -191,7 +191,7 @@ def setup(args):
         save_dir = f'results/swinir_{args.task}_x{args.scale}'
         if args.large_model:
             save_dir += '_large'
-        folder = args.folder_lq
+        folder = args.folder_gt
         border = 0
         window_size = 8
 
